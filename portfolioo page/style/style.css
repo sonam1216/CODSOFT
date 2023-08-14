@@ -1,0 +1,214 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+/*font-family:'Poppins',sans-serif;*/
+/*font-family:'Kalam',cursive;*/
+body{
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+}    
+header{
+    width: 100%;
+    height: 100vh;
+    color: white;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px 70px;
+    font-family:'Poppins',sans-serif
+}
+.logo{
+    font-size: 2em;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    padding: 0.5rem 1rem;
+}
+.menu a:nth-child(5){
+    background-color: lightseagreen;
+    border-radius: 8px;
+    margin: 0 1rem;
+}
+.menu i{
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
+.menu a:hover{
+    background: lightseagreen;
+    border-radius: 8px;
+}
+
+.me{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px 70px;
+}
+.left{
+    flex-basis: 60%;
+}
+.right{
+    flex-basis: 30%;
+    height: 550px;
+    
+}
+.left h2{
+    font-family:'Poppins',sans-serif;
+    color:  lightseagreen;
+    font-weight: 800;
+}
+.left p{
+    font-family: 'Poppins',sans-serif;
+    line-height: 2.5rem;
+    font-weight: 500;
+}
+#Hire{
+    text-decoration: none;
+    background: lightseagreen;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    margin: 0 1rem;
+    transition: .3s;
+}
+#Hire:hover{
+    background: #6ab04c;
+}
+#myp{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    border: 1px dashed white;
+    padding: 1rem 2rem;
+    margin: 0 1rem;
+    transition: .3s;
+}
+#myp:hover{
+    background: lightseagreen;
+}
+#bio{
+    cursor: pointer;
+    padding: 150px 70px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    font-family:'Poppins',sans-serif;
+}
+.leftbio{
+    flex-basis: 40%;
+}
+.rightbio{
+    flex-basis: 60%;
+}
+.leftbio img{
+    width: 100%;
+    height: 600px;
+    border-radius: 8px;
+}
+.rightbio{
+    text-align: right;
+    padding: 0 40px;
+}
+.rightbio h1{
+    font-weight: bolder;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.rightbio p{
+    margin: 25px 0px;
+    line-height: 2.5rem;
+}
+.rightbio h1{
+    font-size: 3rem;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    text-align: left;
+}
+#follow{
+    text-align: center;
+}
+#follow i{
+    color: #6ab04c;
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+}
+.link-h{
+    text-align: center;
+    margin-top: 3rem;
+    
+}
+
+#cv{
+    text-decoration: none;
+    color: black;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    margin: 0 1rem;
+    border: 1px dashed;
+    transition: .3s;
+}
+#cv:hover{
+    background: #6ab04c;
+}
+#Services{
+    padding: 120px 90px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.02);
+    font-family:'Poppins',sans-serif;
+    text-align: center;
+}
+.intro h1{
+    font-size: 3rem;
+}
+.card{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+.cardbody{
+    flex-basis: 30%;
+    background: rgb(202, 227, 236);
+    padding: 1rem;
+    border-radius: 8px;
+}
+.cardbody h3{
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+}
+.cardbody h3{
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+}
+.cardbody i{
+    font-size: 2.5rem;
+    color: #6ab04c;
+}
